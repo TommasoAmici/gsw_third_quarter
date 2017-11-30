@@ -3,6 +3,7 @@
 _How good are they?_ **SPOILER ALERT** _Very_ 
 
 **TL; DR, I just want to meme**
+
 In the third quarter, Steph Curry comes in and goes ham. In the third quarter, he leads the team in points, fouls drawn, steals, assists, and minutes. The Warriors score on average 2.9 more points in the third with an average increase of 4.7\% in FG\%, up to 55.4\%, an average increase of 7\% in FG\%, up to 46.8\%. Their plus-minus in the third is over 6.
 
 [All the graphs](https://imgur.com/a/2FkDP)
@@ -25,6 +26,7 @@ If IT4 was the King of the Forth, Steph Curry has to be the Emperor of the Third
 With that said, let's see what happens with the rest of the team.
 
 **In the third quarter**
+
 1. [FG3% is up 7%](https://i.imgur.com/Y6HiTSl.png), reaching [46.8%](https://i.imgur.com/jm668G8.png).
 
 2. FG% is up 4.7%, reaching [55.4%](https://i.imgur.com/IIgaGk0.png).
