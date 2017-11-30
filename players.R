@@ -1,5 +1,5 @@
 # AUTHOR: TOMMASO AMICI
-players_combined <- read.csv("~/R/third_quarter_gsw/players_combined.csv", sep=";")
+players_combined <- read.csv("~/R/gsw_third_quarter/players_combined.csv", sep=";")
 
 # get third quarter values
 third <- players_combined[players_combined$GROUP_VALUE==3,]
@@ -12,6 +12,12 @@ ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = PTS, fill = AST)) +
   ylab("Points per game in the third quarter")+
   xlab("Players") +
   ggtitle("Points and assists in Q3")
+
+# scatterplot
+ggplot(third, aes(x=PTS, y=AST)) +
+  geom_point(shape=1) +
+  geom_text(aes(label=LAST_NAME))
+
 # defense
 ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = STL, fill = DREB)) +
   geom_bar(position = position_stack(), stat = "identity", width = .7) +
