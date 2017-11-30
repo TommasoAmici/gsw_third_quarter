@@ -13,10 +13,10 @@ ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = PTS, fill = AST)) +
   xlab("Players") +
   ggtitle("Points and assists in Q3")
 
-# scatterplot
+# offense scatterplot
 ggplot(third, aes(x=PTS, y=AST)) +
   geom_point(shape=1) +
-  geom_text(aes(label=LAST_NAME))
+  geom_text(aes(label=LAST_NAME), hjust=0.5,vjust=2)
 
 # defense
 ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = STL, fill = DREB)) +
@@ -25,6 +25,13 @@ ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = STL, fill = DREB)) +
   ylab("Steals per game in the third quarter")+
   xlab("Players") +
   ggtitle("Steals and defensive rebounds in Q3")
+# defense scatterplot
+# scatterplot
+ggplot(third, aes(x=STL, y=DREB)) +
+  geom_point(shape=1) +
+  geom_text(aes(label=LAST_NAME), hjust=0.5,vjust=2) +
+  ggtitle("Defensive effort, let's say")
+
 # fouls
 ggplot(third, aes(x = DISPLAY_FIRST_LAST, y = PFD, fill = PF)) +
   geom_bar(position = position_stack(), stat = "identity", width = .7) +
